@@ -1,0 +1,15 @@
+<mat-toolbar style=" background:rgb(15, 99, 138)">
+    <mat-toolbar-row class="toolbar">
+        <div class="nametitle">
+            <span> Vivero Bartolo</span>
+
+        </div>
+        <div class="buttonsgen">
+            <button mat-button [routerLink]="['/toolbarproducto']" class="">Productos</button>
+            <button mat-button [routerLink]="['/component']" color="">Nosotros</button>
+            <button mat-button  (click)="openDialog()" class="">login</button>
+
+        </div>
+
+    </mat-toolbar-row>
+</mat-toolbar>
